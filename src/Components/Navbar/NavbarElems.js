@@ -8,8 +8,6 @@ export const Nav = styled.nav`
     height: 80px;
     /*margin-top: -80px;*/
     display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 1rem;
     position: sticky;
     top: 0;
@@ -68,6 +66,7 @@ export const NavMenu = styled.ul`
 `
 export const NavItem = styled.li`
     height: 80px;
+    align-items: center;
 
 `
 export const NavLinks = styled(LinkS)`
