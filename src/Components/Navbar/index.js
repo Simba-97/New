@@ -7,7 +7,7 @@ const Navbar = () => {
         <>
            <Nav>
                <NavbarContainer>
-                   <NavLogo to='/'>Hritik Kumar Singh</NavLogo>
+                   <NavLogo to='/'>Welcome to my Portfolio</NavLogo>
                    <MobileIcons>
                        <FaBars />
                    </MobileIcons>

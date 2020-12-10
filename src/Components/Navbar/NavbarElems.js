@@ -34,7 +34,7 @@ export const NavLogo = styled(LinkR)`
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 24px;
+    margin-left: 124px;
     font-weight: bold;
     text-decoration: none;
 `;
@@ -67,6 +67,7 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
     height: 80px;
     align-items: center;
+   
 
 `
 export const NavLinks = styled(LinkS)`
@@ -78,6 +79,7 @@ export const NavLinks = styled(LinkS)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
+    
 
     &active {
         border-bottom: 3px solid #01bf71;
@@ -86,15 +88,15 @@ export const NavLinks = styled(LinkS)`
 export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
-    justify-content: right;
-
+   
+    
     @media screen and (max-width: 768px){
         display: none;
     }
 `
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #01bf71;
+    background: #63da1c;
     white-space: nowrap;
     align-items: center;
     padding: 10px 25px;
