@@ -1,8 +1,13 @@
-import React from 'react'
+import React , {useState} from 'react'
 import Video from '../../Videos/video.mp4'
-import {HeroContainer, HeroBg, VideoBg} from './HeroElements'
-
+import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowDown} from './HeroElements'
+import {Button} from '../ButtonElement'
 const HeroPage = () => {
+
+    const [hover, setHover] = useState(false)
+    const onHover = () => {
+        setHover(!hover)
+    }
     return (
       <HeroContainer>
           <HeroBg>
@@ -16,7 +21,7 @@ const HeroPage = () => {
                   ....
               </HeroP>
               <HeroBtnWrapper>
-                  <Button to='resume'>
+                  <Button to='resume' onMouseEnter={onHover} onMouseLeave = {onHover} >
                       Download Resume {hover ? <ArrowForward /> : <ArrowDown />}
                   </Button>
               </HeroBtnWrapper>
