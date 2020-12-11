@@ -34,7 +34,7 @@ export const NavLogo = styled(LinkR)`
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 124px;
+    margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
 `;
@@ -67,7 +67,6 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
     height: 80px;
     align-items: center;
-   
 
 `
 export const NavLinks = styled(LinkS)`
@@ -81,7 +80,7 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
     
 
-    &active {
+    &:active {
         border-bottom: 3px solid #01bf71;
     }
 `;
