@@ -11,6 +11,7 @@ export const HeroContainer = styled.div`
     position: relative;
     z-index: 1;
 `;
+
 export const HeroBg = styled.div`
     position: absolute;
     top: 0;
@@ -20,6 +21,7 @@ export const HeroBg = styled.div`
     height: 100%;
     overflow: hidden;
 `;
+
 export const VideoBg = styled.video`
     width: 100%;
     height: 100%;
@@ -49,6 +51,7 @@ export const HeroH1 = styled.h1`
         font-size: 32px;
     }
 `;
+
 export const HeroP = styled.p`
     margin-top: 24px;
     color: #fff;
@@ -75,9 +78,9 @@ export const HeroBtnWrapper = styled.div`
 export const ArrowForward = styled(MdArrowForward)`
     margin-left: 8px;
     font-size: 20px;
-`
+`;
 
 export const ArrowDown = styled(MdKeyboardArrowDown)`
     margin-left: 8px;
     font-size: 20px;
-`
+`;
